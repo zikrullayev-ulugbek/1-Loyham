@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#08131f;
+}
+
+.input label{
+    color: white;
+}
+
+.input-border{
+  margin: 100px auto;
+  width: 800px;
+  border-radius: 15px;
+ background: rgba(245, 245, 245, 0.1);
+}
+.input-border p{
+  font-size:40px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.input{
+  width: 750PX;
+  margin-left:  20px;
+  padding: 20px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.input input{
+  padding: 20px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+}
+.input input:hover{
+  transform: translateY(-3px);
+
+}
+.input label{
+  font-size: 20px;
+}
+
+.input a{
+text-decoration: none;
+padding: 15px 20px;
+border-radius: 10px;
+border: none;
+background-color: blue;
+color: white;
+font-size: 15px;
+  transition: 0.4;
+
+}
+.btn{
+
+    display: flex;
+    gap: 30px;
+}
+.input a:active{
+  background: rgb(20, 20, 143);
+  transition: 0.4;
+}
+.input a:hover{
+ transform: translateY(-5px);
+  transition: 0.4;
+}
+.telegram a img{
+  width: 200px;
+  border-radius: 20px;
+ position:absolute;
+ left: 900px;
+}
+
+
