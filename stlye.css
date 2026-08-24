@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background:#08131f;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,6 +67,22 @@ nav {
   color: white;
  
 }
+.nav_a {
+   padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  color: white;
+  background:transparent ;
+ 
+}
+.nav_a:hover{
+  border: 2px solid rgb(15, 215, 218);
+  transform:scale(1.1)
+}
+
 .hero-img{
     width: 450px;
     border-radius: 500px;
@@ -142,7 +162,7 @@ span{
   background: transparent;
   color: #c7baba;
   transition: 0.3s;
-  transform: scale(1.2);
+  transform: scale(1.1);
   border: 2px solid white;
 }
 .btnn:hover{
