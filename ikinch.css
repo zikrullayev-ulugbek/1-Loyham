@@ -64,7 +64,23 @@ nav {
 .nav_link:hover::after{
   width: 100%;
   color: #fff;
-}  
+}
+  .nav_a{
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  color: white;
+  background:transparent ;
+ 
+}
+.nav_a:hover{
+  border: 2px solid rgb(15, 215, 218);
+  transform:scale(1.1)
+}
+
 .con-card{
     margin: 60px 160px;
     display: flex;
