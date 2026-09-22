@@ -171,7 +171,7 @@ img{
 
 .footer-div-img {
     display: flex;
-    gap: 30px;
+    gap: 60px;
 
   }
 
@@ -179,6 +179,11 @@ img{
     display: block; 
    border-radius: 50%;
           
+}
+.footer-div-img a:hover{
+  transform: scale(1.2);
+  transition: 0.4s;
+  box-shadow: 0 0 50px blue;
 }
 
 .footer-div-img img {
