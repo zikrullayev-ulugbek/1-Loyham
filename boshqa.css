@@ -10,7 +10,9 @@ body{
 .input label{
     color: white;
 }
-
+p{
+  color: #fff;
+}
 .input-border{
   margin: 100px auto;
   width: 800px;
